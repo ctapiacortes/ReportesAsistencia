@@ -1,7 +1,7 @@
 ﻿Public Class Conexion
     Public Sub abrir(ByVal c As SqlClient.SqlConnection)
         Try
-            c.ConnectionString = "Data Source={SQL Server};server='" & servidorBD & "';database='" & "CuboGestion" & "';uid='" & usuarioBD & "';pwd='" & claveBD & "'"
+            c.ConnectionString = "Data Source={SQL Server};server='" & servidorDB & "';database='" & "CuboGestion" & "';uid='" & usuarioBD & "';pwd='" & claveBD & "'"
             c.Open()
         Catch ex As Exception
 

@@ -96,9 +96,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\dsdsad.vb" />
     <Compile Include="Clases\General.vb" />
-    <Compile Include="Clases\prueba.vb" />
     <Compile Include="Conexion\Conexion.vb" />
     <Compile Include="Conexion\Publica.vb" />
     <Compile Include="VisualizadorDeReportes.aspx.designer.vb">
