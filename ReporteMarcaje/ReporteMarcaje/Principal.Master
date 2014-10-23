@@ -1,17 +1,59 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Principal.master.vb" Inherits="ReporteMarcaje.Principal" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<link href="Styles/Opacidad.css" rel="stylesheet" type="text/css" />
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Sistema De Marcaciones</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
+<style type="text/css">
+body {
+ background-image: url(Imagenes/wallpaper1.jpg);
+ background-repeat: no-repeat  ;
+ background-attachment: fixed;
+ background-position: center;
+}
+    </style>
+ 
+<style type="text/css">
+
+ CSS
+.contenedor-tabla{
+display: table;
+}
+.contenedor-fila{
+display: table-row;
+}
+.contenedor-columna{
+display: table-cell;
+}
+    </style>
+
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    <div class=trans >
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+        
+            <div class="contenedor-tabla" >
+    <div class="contenedor-fila">
+        <div class="contenedor-columna">
+Columna 1
+         </div>
+
+        <div class="contenedor-columna">
+             Columna 2
+        </div>
+        <div class="contenedor-columna">
+Columna 3
+        </div>
+    </div>
+</div>
+
+         
+            <p>
+                &nbsp;</p>
         
         </asp:ContentPlaceHolder>
     </div>
