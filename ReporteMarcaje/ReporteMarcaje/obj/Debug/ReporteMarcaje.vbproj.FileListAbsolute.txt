@@ -1,0 +1,2 @@
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.Resources.resources
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.vbproj.GenerateResource.Cache

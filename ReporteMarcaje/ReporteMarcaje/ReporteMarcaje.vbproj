@@ -86,6 +86,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="VisualizadorDeReportes.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -95,6 +96,16 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\General.vb" />
+    <Compile Include="Conexion\Conexion.vb" />
+    <Compile Include="Conexion\Publica.vb" />
+    <Compile Include="VisualizadorDeReportes.aspx.designer.vb">
+      <DependentUpon>VisualizadorDeReportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizadorDeReportes.aspx.vb">
+      <DependentUpon>VisualizadorDeReportes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -113,6 +124,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal.Master.designer.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -133,10 +151,9 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="Principal.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Clases\" />
-    <Folder Include="Conexion\" />
     <Folder Include="Imagenes\" />
     <Folder Include="Javascript\" />
     <Folder Include="Reporte\" />
