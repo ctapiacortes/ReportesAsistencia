@@ -90,6 +90,7 @@
     <Content Include="Imagenes\back.jpg" />
     <Content Include="Imagenes\wallpaper1.jpg" />
     <Content Include="Styles\Opacidad.css" />
+    <Content Include="Styles\Reportes.css" />
     <Content Include="VisualizadorDeReportes.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
