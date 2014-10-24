@@ -6,23 +6,7 @@ ReporteMarcaje
 </name>
 </assembly>
 <members>
-<member name="T:ReporteMarcaje.Marcacion.DataTable1DataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:ReporteMarcaje.Marcacion.DataTable1Row">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:ReporteMarcaje.Marcacion.DataTable1RowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:ReporteMarcaje.Marcacion">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="F:ReporteMarcaje.Principal.head">
+<member name="F:ReporteMarcaje.Principal.head">
 	<summary>
 Control head.
 </summary>
@@ -46,22 +30,70 @@ Control ContentPlaceHolder1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReporteMarcaje.Formulario_web1.Label1">
+</member><member name="F:ReporteMarcaje.Login.form1">
 	<summary>
-Control Label1.
+Control form1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:ReporteMarcaje.Formulario_web1.Button1">
+</member><member name="F:ReporteMarcaje.Login.ScriptManager1">
 	<summary>
-Control Button1.
+Control ScriptManager1.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member><member name="F:ReporteMarcaje.Login.UpdatePanel">
+	<summary>
+Control UpdatePanel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.TxtUsuario">
+	<summary>
+Control TxtUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.TxtPassword">
+	<summary>
+Control TxtPassword.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.BtnIngresar">
+	<summary>
+Control BtnIngresar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="T:ReporteMarcaje.Marcacion.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ReporteMarcaje.Marcacion.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ReporteMarcaje.Marcacion.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ReporteMarcaje.Marcacion">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
 </member><member name="P:ReporteMarcaje.My.MyWebExtension.Application">
 	<summary>
  Devuelve información sobre la aplicación actual.
