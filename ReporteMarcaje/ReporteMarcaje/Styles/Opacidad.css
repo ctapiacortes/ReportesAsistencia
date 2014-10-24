@@ -1,0 +1,43 @@
+﻿.container {
+    background-color: #FFA500;
+    padding: 10px;
+}
+ 
+.text {
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    padding: 10px;
+    color: #0000FF;
+    position: absolute;
+    z-index: 1;
+}
+ 
+.background {
+    width: 200px;
+    height: 100px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+ 
+.trans {
+  
+     border-left: 3px double #369;
+    border-right: 3px double #369;
+    border-top: 3px solid #369;
+    border-bottom: 3px solid #369;
+    opacity: 0.8;
+    background-color: #004b91;
+     width: 1008px; 
+    margin: 0 auto;
+        height 384px;
+       -moz-border-radius: 15px 15px 15px 15px;
+/*para Safari y Chrome*/
+    -webkit-border-radius: 15px 15px 15px 15px;
+/* para Opera */
+    border-radius: 15px 15px 15px 15px;
+/* para IE */
+    behavior:url(border.htc);
+    height: 273px;
+}

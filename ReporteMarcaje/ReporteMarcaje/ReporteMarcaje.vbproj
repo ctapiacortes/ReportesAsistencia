@@ -87,6 +87,9 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagenes\back.jpg" />
+    <Content Include="Imagenes\wallpaper1.jpg" />
+    <Content Include="Styles\Opacidad.css" />
     <Content Include="VisualizadorDeReportes.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -106,6 +109,8 @@
       <DependentUpon>Marcacion.xsd</DependentUpon>
     </Compile>
     <Compile Include="Reporte\ObjTablavb.vb" />
+    <Compile Include="Reporte\Reporte Marcacion\FuncionesReporteMarcacion.vb" />
+    <Compile Include="Reporte\Reporte Marcacion\ObjReporteMarca.vb" />
     <Compile Include="VisualizadorDeReportes.aspx.designer.vb">
       <DependentUpon>VisualizadorDeReportes.aspx</DependentUpon>
     </Compile>
@@ -172,9 +177,7 @@
     <Content Include="Principal.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Imagenes\" />
     <Folder Include="Javascript\" />
-    <Folder Include="Styles\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
