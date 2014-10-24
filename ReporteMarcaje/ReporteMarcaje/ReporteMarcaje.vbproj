@@ -89,8 +89,11 @@
   <ItemGroup>
     <Content Include="Imagenes\back.jpg" />
     <Content Include="Imagenes\wallpaper1.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Login.aspx" />
     <Content Include="Styles\Opacidad.css" />
     <Content Include="Styles\Reportes.css" />
+    <Content Include="Styles\style.css" />
     <Content Include="VisualizadorDeReportes.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -104,6 +107,13 @@
     <Compile Include="Clases\General.vb" />
     <Compile Include="Conexion\Conexion.vb" />
     <Compile Include="Conexion\Publica.vb" />
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Marcacion.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

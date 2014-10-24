@@ -6,7 +6,131 @@ ReporteMarcaje
 </name>
 </assembly>
 <members>
-<member name="T:ReporteMarcaje.Marcacion.DataTable1DataTable">
+<member name="F:ReporteMarcaje.Principal.head">
+	<summary>
+Control head.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Principal.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Principal.ContentPlaceHolder1">
+	<summary>
+Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.form1">
+	<summary>
+Control form1.
+</summary>
+<<<<<<< HEAD
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.Application">
+	<summary>
+ Devuelve información sobre la aplicación actual.
+ </summary>
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="P:ReporteMarcaje.My.MyWebExtension.WebServices">
+	<summary>
+ Proporciona acceso a los servicios Web agregados a este proyecto.
+ </summary>
+</member><member name="T:ReporteMarcaje.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ReporteMarcaje.Principal.head">
+=======
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.ScriptManager1">
+>>>>>>> origin/master
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.UpdatePanel">
+	<summary>
+Control UpdatePanel.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:ReporteMarcaje.Login.TxtUsuario">
+	<summary>
+Control TxtUsuario.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+<<<<<<< HEAD
+</member><member name="F:ReporteMarcaje.Formulario_web1.lblTitulo">
+	<summary>
+Control lblTitulo.
+=======
+</member><member name="F:ReporteMarcaje.Login.TxtPassword">
+	<summary>
+Control TxtPassword.
+>>>>>>> origin/master
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+<<<<<<< HEAD
+</member><member name="F:ReporteMarcaje.Formulario_web1.txtFechaDesde">
+	<summary>
+Control txtFechaDesde.
+=======
+</member><member name="F:ReporteMarcaje.Login.BtnIngresar">
+	<summary>
+Control BtnIngresar.
+>>>>>>> origin/master
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+<<<<<<< HEAD
+</member><member name="F:ReporteMarcaje.Formulario_web1.txtFechaHasta">
+=======
+</member><member name="T:ReporteMarcaje.Marcacion.DataTable1DataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -43,59 +167,7 @@ Represents a strongly typed in-memory cache of data.
  Devuelve un objeto Response.
  </summary>
 </member><member name="P:ReporteMarcaje.My.MyWebExtension.Log">
-	<summary>
- Devuelve el objeto de registro Asp.
- </summary>
-</member><member name="P:ReporteMarcaje.My.MyWebExtension.WebServices">
-	<summary>
- Proporciona acceso a los servicios Web agregados a este proyecto.
- </summary>
-</member><member name="T:ReporteMarcaje.My.MyWebExtension">
-	<summary>
- Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
- </summary>
-	<remarks></remarks>
-</member><member name="F:ReporteMarcaje.Principal.head">
-	<summary>
-Control head.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReporteMarcaje.Principal.form1">
-	<summary>
-Control form1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReporteMarcaje.Principal.ContentPlaceHolder1">
-	<summary>
-Control ContentPlaceHolder1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReporteMarcaje.Formulario_web1.lblTitulo">
-	<summary>
-Control lblTitulo.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReporteMarcaje.Formulario_web1.txtFechaDesde">
-	<summary>
-Control txtFechaDesde.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:ReporteMarcaje.Formulario_web1.txtFechaHasta">
+>>>>>>> origin/master
 	<summary>
 Control txtFechaHasta.
 </summary>
