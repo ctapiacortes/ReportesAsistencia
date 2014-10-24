@@ -19,19 +19,23 @@
     <p>
       <label for="login">Usuario:</label>
     <asp:TextBox
-          ID="TxtUsuario" name="login"   value="name@example.com" runat="server"></asp:TextBox>
+          ID="TxtUsuario" name="login"   placeholder="name@example.com" runat="server"></asp:TextBox>
     </p>
 
     <p>
       <label for="password">Password:</label>
       
-      <asp:TextBox ID="TxtPassword" name="password" runat="server"  value="4815162342" 
+      <asp:TextBox ID="TxtPassword" name="password" runat="server"  placeholder="********" 
             TextMode="Password"></asp:TextBox>
     </p>
+        <p>
+           </p>
         &nbsp;<p class="login-submit">
         <asp:Button ID="BtnIngresar" runat="server" Text="Ingresar" CssClass="login-button"/>
     </p>
-        
+     <div aling="center">
+        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+         </div>
       <p class="forgot-password"><a href="index.html">Olvido Su Contraseña?</a></p>
          
          </ContentTemplate>

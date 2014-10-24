@@ -5,9 +5,9 @@
 
     '-----------------------------------------------
 
-    Public servidorCubo As String = "MX2411015B\SQLEXPRESS"
     Public usuarioCubo As String = "sa"
     Public claveCubo As String = "1453Bizancio"
+    Public servidorCubo As String = "(local)\SQLEXPRESS"
 
 
 End Module
