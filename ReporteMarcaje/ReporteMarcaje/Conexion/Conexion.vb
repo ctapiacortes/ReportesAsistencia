@@ -6,7 +6,7 @@
         Catch ex As Exception
         End Try
     End Sub
-    Public Sub abrirCubo(ByVal ce As SqlClient.SqlConnection)
+    Public Sub abrirCubo(ByRef ce As SqlClient.SqlConnection)
         Try
             ce.ConnectionString = "Data Source={SQL Server};server='" & servidorCubo & "';database='" & "UsuariosReportes" & "';uid='" & usuarioCubo & "';pwd='" & claveCubo & "'"
             ce.Open()

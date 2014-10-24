@@ -4,12 +4,11 @@
     Public usuario As String
     Public clave As String
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        Label1.Text = ""
     End Sub
 
     Protected Sub BtnIngresar_Click(sender As Object, e As EventArgs) Handles BtnIngresar.Click
         If ValidaCampos() = True Then
-
         Else
             Label1.Text = ""
             Dim Acceso As String
@@ -17,11 +16,11 @@
             clave = Me.TxtPassword.Text
             Acceso = objGeneral.RetornaUsuario(usuario, clave)
             If Acceso = 1 Then
-                Label1.Text = "Ingreso Correcto !!!"
+                Response.Redirect("VisualizadorDeReportes.aspx")
+                Label1.Text = ""
             Else
                 Label1.Text = "Ingreso Incorrecto !!!"
             End If
-
         End If
     End Sub
 

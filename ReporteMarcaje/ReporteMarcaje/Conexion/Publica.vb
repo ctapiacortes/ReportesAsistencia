@@ -6,7 +6,7 @@
     '-----------------------------------------------
 
     Public usuarioCubo As String = "sa"
-    Public claveCubo As String = "1453Bizancio"
+    Public claveCubo As String = "SAAM2013"
     Public servidorCubo As String = "(local)\SQLEXPRESS"
 
 
