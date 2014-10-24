@@ -39,19 +39,24 @@ display: table-cell;
             <div class="contenedor-tabla" >
     <div class="contenedor-fila">
         <div class="contenedor-columna">
-Columna 1
          </div>
 
         <div class="contenedor-columna">
-             Columna 2
         </div>
         <div class="contenedor-columna">
-Columna 3
         </div>
     </div>
 </div>
 
          
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
             <p>
                 &nbsp;</p>
         

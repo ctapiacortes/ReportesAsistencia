@@ -8,3 +8,9 @@ C:\Users\knlasnibatr\Desktop\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\bi
 C:\Users\knlasnibatr\Desktop\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.dll
 C:\Users\knlasnibatr\Desktop\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.xml
 C:\Users\knlasnibatr\Desktop\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.pdb
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\bin\ReporteMarcaje.dll
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\bin\ReporteMarcaje.pdb
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\bin\ReporteMarcaje.xml
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.dll
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.xml
+C:\Users\rruizc\Desktop\Reportes\ReportesAsistencia\ReporteMarcaje\ReporteMarcaje\obj\Debug\ReporteMarcaje.pdb
